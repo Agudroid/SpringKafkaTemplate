@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-kafka</name>
 	<description>Example of a project using kafka with spring</description>
+	<packaging>pom</packaging>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -60,4 +61,8 @@
 		</plugins>
 	</build>
 
+	<modules>
+		<module>kafka-producer</module>
+		<module>kafka-consumer</module>
+	</modules>
 </project>
